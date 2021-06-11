@@ -1,0 +1,5 @@
+
+export const GET_EMPLOYEES = "GET_EMPLOYEES";
+export const GET_EMPLOYEE_ID = "GET_EMPLOYEE_ID";
+export const UPDATE_STATE = "UPDATE_STATE"
+

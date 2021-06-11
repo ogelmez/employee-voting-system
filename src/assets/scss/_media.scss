@@ -1,0 +1,19 @@
+@media only screen and (max-width: 768px) {
+    .cards {
+      width: 100% !important;
+    }
+
+    .card__image-button {
+        margin: 20px;
+      }
+  
+    .navbar {
+      display: -webkit-box !important;
+      display: -ms-flexbox !important;
+      display: flex !important;
+      -webkit-box-orient: vertical !important;
+      -webkit-box-direction: normal !important;
+      -ms-flex-direction: column !important;
+      flex-direction: column !important;
+    }
+  }

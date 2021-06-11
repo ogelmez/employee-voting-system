@@ -1,0 +1,16 @@
+
+type Employee{
+  id: ID
+  firstName: String @fake(type: firstName, locale:tr)
+  lastName: String @fake(type: lastName, locale:tr)
+  address: String @fake(type: streetAddress, locale:tr ,options: { useFullAddress: true })
+  email : String @fake(type:email, locale:tr)
+  phoneNumber : String @fake(type:phoneNumber,locale:tr)
+  jobTitle :String @fake(type: jobTitle)
+  voteNumber : Int @examples(values:0)
+}
+
+type Query {
+  employee(id: ID): Employee 
+  allEmployees: [Employee] @listLength(min: 1, max: 60)
+}
