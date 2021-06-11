@@ -6,7 +6,7 @@ Serveri ayağa kaldırmak için : graphql-faker --open
 
 Projeyi çalıştırmak için;
 
-ng serve --open
+npm start run
 
 ## Proje içerisinde kullanılan araç ve teknolojiler
 
