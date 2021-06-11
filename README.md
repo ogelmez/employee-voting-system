@@ -1,28 +1,28 @@
-# Projeyi ayağa kaldırmak için;
+# Projeyi ayaÄŸa kaldÄ±rmak iÃ§in;
 
 npm i
 
-Serveri ayağa kaldırmak için : graphql-faker --open
+Serveri ayaÄŸa kaldÄ±rmak iÃ§in : graphql-faker --open
 
-Projeyi çalıştırmak için;
+Projeyi Ã§alÄ±ÅŸtÄ±rmak iÃ§in;
 
 ng serve --open
 
-## Proje içerisinde kullanılan araç ve teknolojiler
+## Proje iÃ§erisinde kullanÄ±lan araÃ§ ve teknolojiler
 
-Front End Framework => Framework olarak React tercih edildi. React içerisinde React Router, React Lazy, React Hookslar, ES6 ile ilgili kullanımlarda yer alıyor.
+Front End Framework => Framework olarak React tercih edildi. React iÃ§erisinde React Router, React Lazy, React Hookslar, ES6 ile ilgili kullanÄ±mlarda yer alÄ±yor.
 
-CSS => CSS tarafında SCSS tercih edildi. SCSS'in getirdiği yenilikler kullanılmaya çalışıldı(Variables,mixins,each vb). Class isimlendirmeleri BEM metadolojisine göre yapıldı.Media queryler göstermek amacıyla bir kaç yerde kullanıldı. CSS Framework olarak Bootstrap tercih edildi.
+CSS => CSS tarafÄ±nda SCSS tercih edildi. SCSS'in getirdiÄŸi yenilikler kullanÄ±lmaya Ã§alÄ±ÅŸÄ±ldÄ±(Variables,mixins vb). Class isimlendirmeleri BEM metadolojisine gÃ¶re yapÄ±ldÄ±.Media queryler gÃ¶stermek amacÄ±yla bir kaÃ§ yerde kullanÄ±ldÄ±. CSS Framework olarak Bootstrap tercih edildi.
 
-Data => Data için Fake-API tercih edildi. Fake API'yi kullanabilmek için graphql-faker kütüphanesini dahil ettim projeye. Graphql içerisinden ilgili model tasarlanması yapıldı, ardından örnek veriler basıldı.
+Data => Data iÃ§in Fake-API tercih edildi. Fake API'yi kullanabilmek iÃ§in graphql-faker kÃ¼tÃ¼phanesini dahil ettim projeye. Graphql iÃ§erisinden ilgili model tasarlanmasÄ± yapÄ±ldÄ±, ardÄ±ndan Ã¶rnek veriler basÄ±ldÄ±.
 
 State Management => State Management olarak Redux tercih edildi. 
 
-HTTP => HTTP istekleri için axios kütüphanesi kullanıldı. 
+HTTP => HTTP istekleri iÃ§in axios kÃ¼tÃ¼phanesi kullanÄ±ldÄ±. 
 
-Event Logs => İlgili log girişlerine Inspect(F12)'ten ulaşılabilir. Konsol içerisinde hangi işlemler yapıldığını kontrol edebilirsiniz.
+Event Logs => Ä°lgili log giriÅŸlerine Inspect(F12)'ten ulaÅŸÄ±labilir. Konsol iÃ§erisinde hangi iÅŸlemler yapÄ±ldÄ±ÄŸÄ±nÄ± kontrol edebilirsiniz.
 
-Kullanılan Kütüphaneler :
+KullanÄ±lan KÃ¼tÃ¼phaneler :
 
 axios
 react-bootstrap
